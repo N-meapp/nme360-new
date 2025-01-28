@@ -295,10 +295,6 @@ h1
 .nav-link:hover, .nav-link.active{
   color: black;
 }
-
-.social-link{
-  gap: 5px;
-}
 .active{
   margin-left: 15px;
 }
@@ -373,7 +369,9 @@ h1
   height: auto !important;
   align-items: center;
 }
-
+ .social-link{
+    gap: 8px;
+  }
  .footer-sect{
     /* width: 31rem; */
     padding-top: 3rem !important;
@@ -424,6 +422,10 @@ h1
   
     margin-right: 2rem !important;
   } */
+
+   .social-link{
+    gap: 8px;
+  }
   .footer-sec{
     display: flex !important;
     width: 41rem;
