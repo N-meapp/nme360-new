@@ -326,7 +326,6 @@ h1
   margin-top: -2rem;
 
 }
-
 .enquiry{
   display: flex !important;
   
@@ -334,6 +333,17 @@ h1
 .enquiry-box{
   align-items: center;
  
+}
+
+.why-choose{
+  padding-left: 4rem !important;
+  padding-right: 4rem;
+}
+.backgroundimg{
+  padding: 20px;
+}
+.background-image{
+  
 }
 
 @media(min-width:400px){
@@ -360,11 +370,7 @@ h1
   height: auto !important;
   align-items: center;
 }
-.enquiry{
-  flex-direction: column !important;
-  text-align: left !important;
-  
-}
+
  .footer-sect{
     /* width: 31rem; */
     padding-top: 3rem !important;
@@ -381,6 +387,12 @@ h1
 .service-hero{
   margin-top: 100px !important;
 }
+.enquiry{
+  flex-direction: column !important;
+  text-align: left !important;
+  
+}
+
 
 }
 
@@ -389,6 +401,7 @@ h1
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   } */
+
 
  
  
@@ -441,6 +454,9 @@ h1
   .service-para{
     padding-left: 5rem;
     padding-right: 2rem;
+  }
+  .why-choose h2{
+    font-size: 2rem;
   }
 }
 
