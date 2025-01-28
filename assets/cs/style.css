@@ -327,6 +327,15 @@ h1
 
 }
 
+.enquiry{
+  display: flex !important;
+  
+}
+.enquiry-box{
+  align-items: center;
+ 
+}
+
 @media(min-width:400px){
   .para{
     margin-top: 34px !important;
@@ -351,7 +360,11 @@ h1
   height: auto !important;
   align-items: center;
 }
-
+.enquiry{
+  flex-direction: column !important;
+  text-align: left !important;
+  
+}
  .footer-sect{
     /* width: 31rem; */
     padding-top: 3rem !important;
