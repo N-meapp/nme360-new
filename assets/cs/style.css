@@ -339,19 +339,17 @@ h1
 .backgroundimg{
   padding: 15px;
 }
-.background-image{
-  
-}
+
 
 @media(min-width:400px){
   .para{
     margin-top: 34px !important;
   }
  
+.backgroundimg{
+  padding: 5px;
+}
  
-  .backgroundimg{
-    padding: 5px;
-  }
   
 }
 
