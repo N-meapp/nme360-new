@@ -295,6 +295,8 @@ h1
 .nav-link:hover, .nav-link.active{
   color: black;
 }
+
+
 .active{
   margin-left: 15px;
 }
@@ -314,6 +316,7 @@ h1
     width: 100%;
     visibility: visible;
   } 
+ 
 }
 
 .service-text{
@@ -339,16 +342,29 @@ h1
 }
 
 
+@media(max-width:400px){
+  
+.social-link{
+  gap: 10px !important;
+}
+.footer-para-ser{
+  margin-top: 2rem;
+}
+}
+
+
 @media(min-width:400px){
   .para{
     margin-top: 34px !important;
   }
  
 .backgroundimg{
-  padding: 5px !important;
+  padding: 5px;
 }
  
-  
+.social-link{
+  gap: 10px !important;
+}
 }
 
 
@@ -369,9 +385,9 @@ h1
   height: auto !important;
   align-items: center;
 }
- .social-link{
-    gap: 8px;
-  }
+.social-link{
+  gap: 10px !important;
+}
  .footer-sect{
     /* width: 31rem; */
     padding-top: 3rem !important;
@@ -422,10 +438,6 @@ h1
   
     margin-right: 2rem !important;
   } */
-
-   .social-link{
-    gap: 8px;
-  }
   .footer-sec{
     display: flex !important;
     width: 41rem;
@@ -434,7 +446,9 @@ h1
   .footer-top{
     margin-top: -3rem;
   }
- 
+  .social-link{
+    gap: 20px !important;
+  }
   /* .project-sect .card {
     width: 633px !important;
     height: auto !important;
@@ -455,13 +469,16 @@ h1
 
 }
 
-@media(max-width:1025){
+@media(max-width:1025px){
   .service-para{
     padding-left: 5rem;
     padding-right: 2rem;
   }
   .why-choose h2{
     font-size: 2rem;
+  }
+  .social-link{
+    gap: 20px !important;
   }
 }
 
