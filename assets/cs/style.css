@@ -334,10 +334,12 @@ h1
   align-items: center;
  
 }
-
+.second-back{
+ padding: 20px;
+}
 
 .backgroundimg{
-  padding: 15px;
+  padding: 10px !important;
 }
 
 
