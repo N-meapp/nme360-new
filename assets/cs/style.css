@@ -297,7 +297,7 @@ h1
 }
 
 .social-link{
-  gap: 1rem;
+  gap: 5px;
 }
 .active{
   margin-left: 15px;
